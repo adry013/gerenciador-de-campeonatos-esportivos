@@ -1,4 +1,4 @@
 class config:
-    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:adryanderson11@localhost/campeonato"
+    SQLALCHEMY_DATABASE_URI = "sqlite:///campeonato.db"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     
