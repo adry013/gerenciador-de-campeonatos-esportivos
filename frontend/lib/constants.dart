@@ -1,2 +1,3 @@
 // lib/constants.dart
-const String baseUrl = 'http://127.0.0.1:5000';
+const String baseUrl =
+    'https://gerenciador-de-campeonatos-esportivos.onrender.com';
