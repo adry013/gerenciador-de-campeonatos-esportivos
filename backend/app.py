@@ -1,4 +1,5 @@
 from flask import Flask
+from flask_cors import CORS
 from config import config
 from database.db import db
 
@@ -9,6 +10,7 @@ from routes.Partida_routes import partida_bp
 def create_app():
     app = Flask(__name__)
     app.config.from_object(config)
+    CORS(app)  # ← linha adicionada
 
     db.init_app(app)
 
